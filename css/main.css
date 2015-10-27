@@ -66,13 +66,13 @@ header {
     padding: 1em;
 }
 
+a:hover, input:focus {
+    color: #0000EE;
+}
+
 a:link, a:visited {
     text-decoration: none;
     color: #0000AA;
-}
-
-a:hover, input:focus {
-    color: #0000EE;
 }
 
 nav a:hover, nav a:focus {
@@ -117,19 +117,16 @@ h3 {
     font-size: 125%;
 }
 
-footer {
-    background-color: #FC892F;
-    border-top: solid 5px #EC791F;
-    font-size: 80%;
+section.restaurantInfo {
     padding: 1em;
-    text-align: right;
 }
 
-section {
-    padding: 1em;
-}
-.menu {
+section.menu {
     background-color: rgba(207, 205, 140, 0.5);
+}
+
+section.aboutUs {
+    padding: 1em;
 }
 
 dd {
@@ -144,6 +141,10 @@ dt {
     font-weight: 400;
 }
 
-.aboutUs {
+footer {
+    background-color: #FC892F;
+    border-top: solid 5px #EC791F;
+    font-size: 80%;
     padding: 1em;
+    text-align: right;
 }
